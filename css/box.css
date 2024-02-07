@@ -1,0 +1,72 @@
+body{
+  margin: 0px;
+ 
+}
+
+div.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%,-50%);
+  width: 30%;
+  left: 35%;
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
+}
+div.box > div.img {
+}
+div.box > img {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+div.box > div.about {
+  text-align: center;
+}
+div.box > div.about > div.text {
+}
+div.box > div.about > div.text > h1 {
+}
+div.box > div.about > div.music {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f9fe;
+  margin: 0px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+div.box > div.about > div.music > div.left {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 13px 8px;
+  gap: 10px;
+}
+div.box > div.about > div.music > div.left > div.pricing > h3 {
+  margin: 0px;
+}
+div.box > div.about > div.music > div.left > div.pricing > p {
+  margin: 0px;
+}
+div.box > div.about > div.music > div.left > div.icon {
+  font-size: 10px;
+}
+div.box > div.about > div.music > h2 {
+  padding: 0px 8px;
+}
+div.box > div.about > div.buttons {
+}
+div.box > div.about > div.buttons > div.button1 {
+  background-color: #766cf1;
+  padding: 12px;
+  color: white;
+  margin: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px black;
+}
+div.box > div.about > div.buttons > div.button2 {
+  margin: 40px;
+}
